@@ -15,8 +15,8 @@ import uuid
 import time
 import os
 
-from .delay_config import DelayConfig, StandardDelayConfig
-from .services import Service, GoogleService
+from delay_config import DelayConfig, StandardDelayConfig
+from services import Service, GoogleService
 
 
 DEFAULT_SERVICE: Service = GoogleService()
